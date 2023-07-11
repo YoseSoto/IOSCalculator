@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: white;
+  padding: 20vh 0px;
+}
+
+.Calculadora {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 430px;
+  height: 850px;
+  margin: auto;
+  padding-bottom: 20px;
+  border: 5px solid rgb(100, 100, 100);
+  border-radius: 80px;
+}
+
+.Calculadora .result {
+  display: flex;
+  margin: 30px;
+  font-size: 80px;
+  color: white;
+  justify-content: end;
+  padding-right: 21px;
+  margin-top: 210px;
+}
+
+.Calculadora .numeral {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.Calculadora button {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  font-size: 35px;
+  border: 0px;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  margin: 6px;
+  text-align: center;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.Calculadora .zero {
+  border-radius: 135px;
+  width: 190px;
+}
+
+.Calculadora .operator {
+  background-color: #ca8300;
+  color: white;
+  transition: 500ms;
+}
+
+.Calculadora .operator1 {
+  background-color: rgb(160, 160, 160);
+  color: black;
+}
+
+.Calculadora button:hover {
+  background-color: rgb(110, 110, 110);
+}
+
+.Calculadora .operator1:hover{
+  background-color: rgb(210, 210, 210);
+}
+
+.Calculadora .operator:hover{
+  background-color: rgb(255,255,255);
+  color: #ca8300;
+}
