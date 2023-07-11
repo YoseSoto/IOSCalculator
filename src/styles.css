@@ -53,6 +53,8 @@ body {
 .Calculadora .zero {
   border-radius: 135px;
   width: 190px;
+  text-align: start;
+  padding-left: 30px;
 }
 
 .Calculadora .operator {
@@ -70,11 +72,22 @@ body {
   background-color: rgb(110, 110, 110);
 }
 
-.Calculadora .operator1:hover{
+.Calculadora .operator1:hover {
   background-color: rgb(210, 210, 210);
 }
 
-.Calculadora .operator:hover{
-  background-color: rgb(255,255,255);
+.Calculadora .operator:hover {
+  background-color: rgb(255, 255, 255);
   color: #ca8300;
+}
+
+
+.Calculadora .active{
+  background-color: white;
+  color: #ca8300;
+}
+
+.Calculadora .equals{
+  background-color: #ca8300;
+  color: white;
 }
